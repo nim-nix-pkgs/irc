@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-irc-master.flake = false;
+  inputs.src-irc-master.ref   = "refs/heads/master";
   inputs.src-irc-master.owner = "nim-lang";
-  inputs.src-irc-master.ref   = "master";
   inputs.src-irc-master.repo  = "irc";
   inputs.src-irc-master.type  = "github";
   
