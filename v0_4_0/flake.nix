@@ -1,5 +1,5 @@
 {
-  description = ''Implements a simple IRC client.'';
+  description = ''IRC client module'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-irc-v0_4_0.flake = false;
   inputs.src-irc-v0_4_0.owner = "nim-lang";
-  inputs.src-irc-v0_4_0.ref   = "refs/tags/v0.4.0";
+  inputs.src-irc-v0_4_0.ref   = "v0_4_0";
   inputs.src-irc-v0_4_0.repo  = "irc";
   inputs.src-irc-v0_4_0.type  = "github";
   
