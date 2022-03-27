@@ -11,6 +11,7 @@
   inputs.src-irc-master.ref   = "refs/heads/master";
   inputs.src-irc-master.owner = "nim-lang";
   inputs.src-irc-master.repo  = "irc";
+  inputs.src-irc-master.dir   = "";
   inputs.src-irc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

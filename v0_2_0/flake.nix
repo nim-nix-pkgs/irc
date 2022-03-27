@@ -11,6 +11,7 @@
   inputs.src-irc-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-irc-v0_2_0.owner = "nim-lang";
   inputs.src-irc-v0_2_0.repo  = "irc";
+  inputs.src-irc-v0_2_0.dir   = "";
   inputs.src-irc-v0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
